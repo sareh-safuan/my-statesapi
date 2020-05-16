@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "name": "Perlis",
+        "capital": "Kangar",
+        "royal_capital": "Arau",
+        "area": 819,
+        "population": 254400,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Perlis.svg",
+        "state_website": "http://www.perlis.gov.my/",
+        "wikipedia_page": "https://en.wikipedia.org/wiki/Perlis"
+    },
+    {
+        "id": 2,
+        "name": "Kedah", 
+        "capital": "Alor Setar",
+        "royal_capital": "Anak Bukit",
+        "area": 9500,
+        "population": 2071900,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Flag_of_Kedah.svg",
+        "state_website": "http://kedah.gov.my/",
+        "wikipedia_page": "https://en.wikipedia.org/wiki/Kedah"
+    },
+    {
+        "id": 3,
+        "name": "Perak", 
+        "capital": "Ipoh",
+        "royal_capital": "Kuala Kangsar",
+        "area": 20976,
+        "population": 2500000,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/8/87/Flag_of_Perak.svg",
+        "state_website": "https://www.perak.gov.my",
+        "wikipedia_page": "https://en.wikipedia.org/wiki/Perak"
+    },
+    {
+        "id": 4,
+        "name": "Selangor", 
+        "capital": "Shah Alam",
+        "royal_capital": "Klang",
+        "area": 8104,
+        "population": 6448400,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Flag_of_Selangor.svg",
+        "state_website": "http://www.selangor.gov.my/",
+        "wikipedia_page": "https://en.wikipedia.org/wiki/Selangor"
+    },
+    {
+        "id": 5,
+        "name": "Negeri Sembilan", 
+        "capital": "Seremban",
+        "royal_capital": "Seri Menanti",
+        "area": 6686,
+        "population": 1098500,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_Negeri_Sembilan.svg", 
+        "state_website": "http://www.ns.gov.my/",
+        "wikipedia_page": "https://en.wikipedia.org/wiki/Negeri_Sembilan"
+    },
+    {
+        "id": 6,
+        "name": "Melaka", 
+        "capital": "Bandaraya Melaka",
+        "royal_capital": "",
+        "area": 1650,
+        "population": 926800,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_Malacca.svg",
+        "state_website": "http://www.melaka.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Melaka"
+    },
+    {
+        "id": 7,
+        "name": "Johor",
+        "capital": "Johor Bahru",
+        "royal_capital": "Muar",
+        "area": 19984,
+        "population": 3764800,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Johor.svg",
+        "state_website": "http://www.johor.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Johor"
+    },
+    {
+        "id": 8,
+        "name": "Pahang", 
+        "capital": "Kuantan",
+        "royal_capital": "Pekan",
+        "area": 35964,
+        "population": 1675000,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Pahang.svg",
+        "state_website": "http://www.pahang.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Pahang_Darul_Makmur"
+    },
+    {
+        "id": 9,
+        "name": "Terengganu", 
+        "capital": "Kuala Terengganu",
+        "royal_capital": "Kuala Terengganu",
+        "area": 12955,
+        "population": 1241600,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Flag_of_Terengganu.svg",
+        "state_website": "http://www.terengganu.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Terengganu"
+    },
+    {
+        "id": 10,
+        "name": "Kelantan",
+        "capital": "Kota Bharu",
+        "royal_capital": "Kota Bharu",
+        "area": 15100,
+        "population": 1870700,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Kelantan.svg",
+        "state_website": "http://www.kelantan.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Kelantan"
+    },
+    {
+        "id": 11,
+        "name": "Sarawak",
+        "capital": "Kuching",
+        "royal_capital": "",
+        "area": 124450,
+        "population": 2804900,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Flag_of_Sarawak.svg",
+        "state_website": "https://www.sarawak.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Sarawak"
+    },
+    {
+        "id": 12,
+        "name": "Sabah", 
+        "capital": "Kota Kinabalu",
+        "royal_capital": "",
+        "area": 73631,
+        "population": 3921000,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Flag_of_Sabah.svg",
+        "state_website": "http://www.sabah.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Sabah"
+    },
+    {
+        "id": 13,
+        "name": "Kuala Lumpur",
+        "capital": "",
+        "royal_capital": "",
+        "area": 22243,
+        "population": 7200000,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Kuala_Lumpur%2C_Malaysia.svg",
+        "state_website": "http://www.dbkl.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Kuala_Lumpur"
+    },
+    {
+        "id": 14,
+        "name": "Putrajaya",
+        "capital": "",
+        "royal_capital": "",
+        "area": 49,
+        "population": 88300,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Putrajaya.svg",
+        "state_website": "https://www.ppj.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Putrajaya"
+    },
+    {
+        "id": 15,
+        "name": "Labuan",
+        "capital": "Bandar Victoria",
+        "royal_capital": "",
+        "area": 91,
+        "population": 86908,
+        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_Labuan.svg",
+        "state_website": "http://www.pl.gov.my/",
+        "wikipedia_page": "https://ms.wikipedia.org/wiki/Labuan"
+    }
+]
