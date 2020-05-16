@@ -10,3 +10,8 @@
     "wikipedia_page":
 }
 
+v.0.0.1
+route
+    get: /states
+    get/{state}: /states/{$state}
+
