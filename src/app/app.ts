@@ -1,9 +1,11 @@
 import express from 'express'
 import axios from 'axios'
+import helmet from 'helmet'
 
 const app = express()
 
 app.use(express.static('public'))
+app.use(helmet())
 
 interface State {
     id: number,
