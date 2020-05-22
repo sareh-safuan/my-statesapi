@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        span {
+            display: block;
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>Guide</h3>
+        <span>
+            <i>my-state</i> is API endpoint that provide basic informations about state
+            and federal territories in Malaysia. 
+        </span>
+        <span>
+            To avoid abuse usage, only 20 request can be
+            done in 15 minutes.
+        </span>
+        <br />
+        <ul>
+            <li>
+                <span>All available states & federal territories</span>
+                <a href="https://my-state.smsafuan.com/state">
+                    https://my-state.smsafuan.com/state
+                </a>
+            </li>
+        </ul>
+        <pre>
+            fetch('https://my-state.smsafuan.com/state')
+                .then(res => res.json())
+                .then(json => console.log(json))
+
+            /* Output */
+            {
+                "success": 1,
+                "data": [
+                  {
+                    "id": 1,
+                    "name": "Perlis"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Kedah"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Perak"
+                  },
+            ...
+        </pre>
+
+        <ul>
+            <li>
+                <span>Single state or federal territories informations</span>
+                <a href="https://my-state.smsafuan.com/state/1">
+                    https://my-state.smsafuan.com/state/1
+                </a>
+            </li>
+        </ul>
+        <pre>
+            fetch('https://my-state.smsafuan.com/state/1')
+                .then(res => res.json())
+                .then(json => console.log(json))
+
+            /* Output */
+            {
+                "success": 1,
+                "data": {
+                  "id": 1,
+                  "name": "Perlis",
+                  "capital": "Kangar",
+                  "royal_capital": "Arau",
+                  "area": 819,
+                  "population": 254400,
+                  "state_flag": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Perlis.svg",
+                  "state_website": "http://www.perlis.gov.my/",
+                  "wikipedia_page": "https://en.wikipedia.org/wiki/Perlis"
+                }
+            }
+        </pre>
+    </div>
+</body>
+
+</html>

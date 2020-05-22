@@ -9,18 +9,17 @@ import fs from 'fs'
 const app = express()
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000,
-    max: 50
+    max: 20
 })
 const accessLogStream = fs.createWriteStream(
     path.format({ dir: process.env.LOG_DIR, base: 'access.log' }),
     { flags: 'a' }
 )
 
-app.use(morgan('combined', { stream: accessLogStream }))    
+app.use(morgan('combined', { stream: accessLogStream }))
 app.use(limiter)
 app.use(express.static('public'))
 app.use(helmet())
-
 
 interface State {
     id: number,
@@ -39,7 +38,7 @@ interface SimpleState {
     name: string
 }
 
-app.get('/states', async (req, res) => {
+app.get('/state', async (req, res) => {
 
     try {
 
@@ -76,10 +75,13 @@ app.get('/state/:id', async (req, res) => {
 })
 
 app.get('/docs', (req, res) => {
-    res.send('document is here')
+    
+    const indexFile = path.format({ dir: process.env.PUBLIC_DIR, base: 'index.html' })
+    res.sendFile(indexFile)
 })
 
 app.all('*', (req, res) => {
+
     res.redirect('/docs')
 })
 
