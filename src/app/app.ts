@@ -50,9 +50,8 @@ app.get('/state', async (req, res) => {
 
     } catch (error) {
 
-        console.log(error)
         return res.json({ success: 0, message: 'Something went wrong' })
-
+        
     }
 })
 
@@ -68,7 +67,6 @@ app.get('/state/:id', async (req, res) => {
 
     } catch (error) {
 
-        console.log(error)
         return res.json({ success: 0, message: 'Something went wrong' })
 
     }
