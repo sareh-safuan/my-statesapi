@@ -1,3 +1,3 @@
-## to add detail later
+### develop branch
 
-simple rest api using nodejs with typescript
+please refer to master branch
